@@ -47,7 +47,10 @@
     </audio>
     <script src="script.js"></script>
     <script>
-        document.getElementById('audio').play();
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById('audio').play();
+        });
         show();
     </script>
 </html>
