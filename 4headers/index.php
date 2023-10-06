@@ -6,7 +6,6 @@ if (strpos($referer, 'fbi.gov') !== false) {
     echo file_get_contents('./sc.html');
 } else {
     echo 'No tienes acceso a esta página.';
-    header('HTTP/1.1 403 Forbidden');
 }
 
 
