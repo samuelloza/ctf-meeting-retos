@@ -1,0 +1,19 @@
+
+00:00.0 Host bridge: Red Hat, Inc. QEMU PCIe Host bridge
+00:01.0 Display controller: Red Hat, Inc. Virtio GPU (rev 01)
+00:02.0 PCI bridge: Red Hat, Inc. QEMU PCIe Root port
+00:02.1 PCI bridge: Red Hat, Inc. QEMU PCIe Root port
+00:02.2 PCI bridge: Red Hat, Inc. QEMU PCIe Root port
+00:02.3 PCI bridge: Red Hat, Inc. QEMU PCIe Root port
+00:02.4 PCI bridge: Red Hat, Inc. QEMU PCIe Root port
+00:02.5 PCI bridge: Red Hat, Inc. QEMU PCIe Root port
+00:02.6 PCI bridge: Red Hat, Inc. QEMU PCIe Root port
+00:02.7 PCI bridge: Red Hat, Inc. QEMU PCIe Root port
+00:03.0 PCI bridge: Red Hat, Inc. QEMU PCIe Root port
+00:04.0 Serial controller: Red Hat, Inc. QEMU PCI 16550A Adapter (rev 01)
+01:00.0 Ethernet controller: Red Hat, Inc. Virtio network device (rev 01)
+02:00.0 USB controller: Red Hat, Inc. QEMU XHCI Host Controller (rev 01)
+03:00.0 Communication controller: Red Hat, Inc. Virtio console (rev 01)
+04:00.0 Unclassified device [00ff]: Red Hat, Inc. Virtio memory balloon (rev 01)
+05:00.0 Unclassified device [00ff]: Red Hat, Inc. Virtio RNG (rev 01)
+06:00.0 SCSI storage controller: Red Hat, Inc. Virtio SCSI (rev 01)
