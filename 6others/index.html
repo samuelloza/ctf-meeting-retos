@@ -1,0 +1,64 @@
+<html>
+
+<body>
+    <style>
+        body {
+            background-image: url("./download.jpeg");
+            background-color: black;
+            animation: moveBackground 10s linear infinite;
+        }
+
+        @keyframes moveBackground {
+            0% {
+                background-position: 0% 0;
+            }
+
+            100% {
+                background-position: 100% 0;
+            }
+        }
+    </style>
+    <script>
+        function randomMovement() {
+            let directions = ['top', 'bottom', 'left', 'right'];
+            let randomDirection = directions[Math.floor(Math.random() * directions.length)];
+
+            switch (randomDirection) {
+                case 'top':
+                    document.body.style.backgroundPosition = "50% 0%";
+                    break;
+                case 'bottom':
+                    document.body.style.backgroundPosition = "50% 100%";
+                    break;
+                case 'left':
+                    document.body.style.backgroundPosition = "0% 50%";
+                    break;
+                case 'right':
+                    document.body.style.backgroundPosition = "100% 50%";
+                    break;
+            }
+        }
+
+        setInterval(randomMovement, 1000);
+
+
+        (function () {
+            let _0x73a0 = "\x65\x73\x74\x65\x20\x65\x73\x20\x75\x6e\x20\x72\x65\x74\x6f\x20\x64\x65\x20\x64\x65\x73\x6f\x66\x75\x73\x63\x61\x63\x69\x6f\x6e\x2c\x20\x65\x73\x20\x6d\x75\x79\x20\x63\x6f\x6d\x75\x6e\x20\x65\x6e\x20\x61\x6c\x67\x75\x6e\x6f\x73\x20\x72\x65\x74\x6f\x73\x2c\x20\x63\x6f\x6d\x6f\x20\x76\x65\x73\x20\x6e\x6f\x20\x65\x73\x20\x6e\x61\x64\x61\x20\x64\x65\x6c\x20\x6f\x74\x72\x6f\x20\x6d\x75\x6e\x64\x6f\x0a";
+
+            function confuse(input) {
+                return input.split('').reverse().join('');
+            }
+
+            let result = '';
+            let message = confuse(_0x73a0);
+            for (let i = 0; i < message.length; i++) {
+                const bin = message.charCodeAt(i).toString(2).padStart(8, '0');
+                result += bin + " ";
+            }
+
+            console.log("Mira más de cerca, la solución podría no ser lo que parece.");
+            alert("Busca un poco más");
+        })();
+    </script>
+
+</html>
