@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sepa si hoy es lunes o no de forma inmediata y totalmente gratuíta.">
+    <title>EsLunes.com - &iquest;hoy es Lunes?</title>
+
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <meta property="og:url" content="http://eslunes.com" />
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <div class="col-xs-12">
+            <div class="panel">
+                <div class="panel-body">
+                    <h4>&iquest;ES LUNES?</h4>
+                    <script languaje="Javascript">
+                        var today = (new Date()).getDay();
+                        var messages = [
+                            "¡Aprovecha el día, mañana es lunes!",
+                            "Noooo, hoy es lunes",
+                            "Ni modo, comienza la semana",
+                            "Lo mejor está por venir, ¡el lunes está aquí!",
+                            "Hoy es lunes, pero cada día nos acerca al fin de semana",
+                            "¡Empieza la semana con energía, es lunes!",
+                            "¡Vamos, es el inicio de una nueva semana!",
+                        ];
+
+                        var weekDays = ["DOMINGO", "LUNES", "MARTES", "MIÉRCOLES", "JUEVES", "VIERNES", "SÁBADO"];
+
+                        document.write("<h1>¡¡¡" + (today == 5 ? "SÍ" : "NO") + "!!!</h1>");
+                        document.write("<img src=\"" + today + ".gif\">");
+                        document.write("<h3>Hoy es " + weekDays[today] + "</h3>");
+                        document.write("<h5>" + messages[today] + "</h5>");
+                    </script>
+
+                    <div class="fb-like" data-action="like" data-href="https://eslunes.com" data-layout="button_count"
+                        data-share="true" data-show-faces="true" data-size="small"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-xs-12">
+            <div class="panel">
+                <div class="panel-content">
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <!-- 
+            user: admin
+            password: fakePassword
+        -->
+    </div>
+</body>
+
+</html>
